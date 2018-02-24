@@ -1,0 +1,31 @@
+{
+  "name": "store_pos",
+  "version": "1.0.0",
+  "description": "Point Of Sale terminal application",
+  "main": "pos.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlpineInc/storepos.git"
+  },
+  "keywords": [
+    "pos",
+    "node.js"
+  ],
+  "author": "Ravish Rao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlpineInc/storepos/issues"
+  },
+  "homepage": "https://github.com/AlpineInc/storepos#readme",
+  "dependencies": {
+    "ajv": "^6.1.1",
+    "cfonts": "^1.1.3",
+    "inquirer": "^5.1.0",
+    "log4js": "^2.5.3",
+    "mysql": "^2.15.0",
+    "table": "^4.0.3"
+  }
+}
