@@ -47,10 +47,10 @@ SELECT
     dept_sales.total_dept_sales,
     (dept_sales.total_dept_sales - dept.over_head_cost) as profits
 FROM
-    department dept
+    bamazon.department dept
         LEFT JOIN
     (SELECT 
         dept_name, COUNT(total_sales) AS total_dept_sales
     FROM
-        product
+        bamazon.product
     GROUP BY dept_name) dept_sales ON dept.dept_name = dept_sales.dept_name;
