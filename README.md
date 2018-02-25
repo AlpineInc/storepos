@@ -37,39 +37,27 @@ End with an example of getting some data out of the system or using it for a lit
 ### Main menu of the POS application
 ![alt text](docs/images/main_menu.png "Main menu of the POS application")
 
-![alt text](docs/images/make_a_sale.png "Sell an item")
+### Make a sale
+![alt text](docs/images/make_a_sale.png "Make a sale")
 
+### Manage inventory menu
 ![alt text](docs/images/manage_inventory_menu.png "Manage inventory menu")
 
+### View items with low inventory
 ![alt text](docs/images/low_inventory.png "Display items with low inventory")
 
+### Replinish inventory
 ![alt text](docs/images/add_inventory.png "Replenish inventory")
 
+### Add a new product
 ![alt text](docs/images/add_new_product.png "Add new product to the store")
 
+### Reports menu
 ![alt text](docs/images/reports_menu.png "Manager reports")
 
+### Total sales by Dept report
 ![alt text](docs/images/sales_by_dept.png "Department sales reports")
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
