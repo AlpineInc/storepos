@@ -1,36 +1,64 @@
 # Alpine Inc Store Point Of Sale
 
-One Paragraph of project description goes here
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Point of Sale application used to manage inventory and sale at stores. Information in this page will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Things you need to install the application and how to install them
 
 ```
-Give examples
+Node v8 or above
+MySQL Database
+```
+
+### NPM dependencies
+
+The application has the following NPM package dependencies
+
+```
+cfonts v1.1.3
+inquirer v5.1.0
+log4js v2.5.3
+mysql v2.15.0
+table v4.0.3
 ```
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
+Clone the repository to your local machine
 
 ```
-Give the example
+git clone https://github.com/AlpineInc/storepos.git
 ```
 
-And repeat
+Execute database_ddl.sql against your MySQL database
 
 ```
-until finished
+mysql> source database_ddl.sql
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+Modify host, user and password details in database-util.js to match your database settings
+
+```
+this.mysqlConfig = {
+    host: 'localhost',
+    user: 'root',
+    password: 'admin',
+    database: 'bamazon'
+};
+```
+
+Install the application dependencies. The dependencies are already configured in the package.json file.
+
+```
+npm install
+```
+
+Start the POS application in the command line.
+
+```
+node bamazon.js
+```
 
 ## POS application features
 
@@ -58,33 +86,15 @@ End with an example of getting some data out of the system or using it for a lit
 ### Total sales by Dept report
 ![alt text](docs/images/sales_by_dept.png "Department sales reports")
 
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Ravish Rao** - *Initial work* - (https://www.linkedin.com/in/ravish-adka-rao-16555610/)
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
