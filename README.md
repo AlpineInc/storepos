@@ -36,6 +36,20 @@ End with an example of getting some data out of the system or using it for a lit
 
 ![alt text](docs/images/main_menu.png "Main menu of the POS application")
 
+![alt text](docs/images/make_a_sale.png "Sell an item")
+
+![alt text](docs/images/manage_inventory_menu.png "Manage inventory menu")
+
+![alt text](docs/images/low_inventory.png "Display items with low inventory")
+
+![alt text](docs/images/add_inventory.png "Replenish inventory")
+
+![alt text](docs/images/add_new_product.png "Add new product to the store")
+
+![alt text](docs/images/reports.png "Manager reports")
+
+![alt text](docs/images/sale_by_dept.png "Department sales reports")
+
 ### Break down into end to end tests
 
 Explain what these tests test and why
