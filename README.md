@@ -1,6 +1,6 @@
 # Alpine Inc Store Point Of Sale
 
-Point of Sale application used to manage inventory and sale at stores. Information in this page will get you a copy of the project up and running on your local machine for development and testing purposes. 
+Point of Sale application is used to manage inventory and sale at stores. Information in this page will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
 ### Prerequisites
 
@@ -96,5 +96,5 @@ When contributing to this repository, please first discuss the change you wish t
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License
 
