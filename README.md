@@ -32,8 +32,9 @@ until finished
 
 End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
+## POS application features
 
+### Main menu of the POS application
 ![alt text](docs/images/main_menu.png "Main menu of the POS application")
 
 ![alt text](docs/images/make_a_sale.png "Sell an item")
@@ -46,9 +47,9 @@ End with an example of getting some data out of the system or using it for a lit
 
 ![alt text](docs/images/add_new_product.png "Add new product to the store")
 
-![alt text](docs/images/reports.png "Manager reports")
+![alt text](docs/images/reports_menu.png "Manager reports")
 
-![alt text](docs/images/sale_by_dept.png "Department sales reports")
+![alt text](docs/images/sales_by_dept.png "Department sales reports")
 
 ### Break down into end to end tests
 
